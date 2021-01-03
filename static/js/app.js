@@ -36,6 +36,10 @@ function runEnter() {
   
     console.log(filteredData);
 
+    // clears the table to display only current results
+    var list = d3.select("tbody");
+    list.html("");
+
     // Loop through `data` and console.log each ufo sighting object
     filteredData.forEach(function(ufoSighting){
         // console.log(ufoSighting);
@@ -49,5 +53,8 @@ function runEnter() {
         });
     
     });
+
+    
+
 
 }
