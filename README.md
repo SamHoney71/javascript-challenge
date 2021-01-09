@@ -12,4 +12,6 @@
 
 <p>  UFO Level 2 filters on date, State, Shape & City</p>
 
+<p> </p>
 
+<p> Note:  Ignore the static folder.  All code is in the UFO-level-1 and UFO-level-2 folders.</p>
